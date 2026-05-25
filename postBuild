@@ -11,5 +11,6 @@ git clone https://github.com/dullemond/radmc3d-2.0.git $RADMCDIR
 # Install RADMC-3D
 cd $RADMCDIR/src
 make
-# Add directory with executable to PATH in .bashrc
-echo "export PATH='$PATH:$RADMCDIR/src'" >> $HOME/.bashrc
+# 
+mkdir ~/.local/bin
+cp $RADMCDIR/src/radmc3d ~/.local/bin/radmc3d
