@@ -1,0 +1,8 @@
+name: dustpy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+    - dustpylib

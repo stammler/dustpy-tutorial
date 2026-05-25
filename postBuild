@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Location of additional software
+PROGDIR=$HOME/software
+
+# RADMC-3D
+# Location of RADMC-3D
+RADMCDIR=$PROGDIR/radmc3d
+# Clone RADMC-3D
+git clone https://github.com/dullemond/radmc3d-2.0.git $RADMCDIR
+# Install RADMC-3D
+cd $RADMCDIR/src
+make
+# Add directory with executable to PATH in .bashrc
+echo "export PATH='$PATH:$RADMCDIR/src'" >> $HOME/.bashrc
