@@ -58,5 +58,5 @@ The tutorial is structured as follows
 ### 3. Advanced Setups
 
 * [3.1 Ice Lines](/notebooks/3_advanced/3.1_ice_lines.ipynb)
-* [3.2 Planetary Gaps and Planetesimal Formation](/notebooks/3_advanced/3.2_substructure_planet_formation.ipynb)
+* [3.2 Planetary Gaps and Planetesimal Formation](/notebooks/3_advanced/3.2_substructure_planetesimal_formation.ipynb)
 * [3.3 Radiative Transfer Modelling](/notebooks/3_advanced/3.3_radiative_transfer.ipynb)
